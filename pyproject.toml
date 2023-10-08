@@ -1,10 +1,29 @@
 [tool.poetry]
 name = "moplots"
-version = "0.1.0"
+version = "0.1.1"
 description = "Molecular Orbital Plots as Batch Series for ORCA"
 authors = ["Anselm Hahn <anselm.hahn@gmail.com>"]
+maintainers = ["Anselm Hahn <anselm.hahn@gmail.com>"]
+repository = "https://github.com/Anselmoo/moplots"
 license = "MIT"
 readme = "README.md"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Software Development :: Code Generators",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
