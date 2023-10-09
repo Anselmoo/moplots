@@ -31,4 +31,3 @@ jobs:
     - name: Install MOPLots via poetry
       run: |
         poetry install
-        
