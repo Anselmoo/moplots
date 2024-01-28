@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "moplots"
-version = "0.1.2"
+version = "0.1.2.post0"
 description = "Molecular Orbital Plots as Batch Series for ORCA"
 authors = ["Anselm Hahn <anselm.hahn@gmail.com>"]
 maintainers = ["Anselm Hahn <anselm.hahn@gmail.com>"]
