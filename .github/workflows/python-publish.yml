@@ -85,7 +85,6 @@ jobs:
           gh release create
           '${{ github.ref_name }}'
           --repo '${{ github.repository }}'
-          --notes "Release ${{ github.ref_name }}"
           --generate-notes
       - name: Upload artifact signatures to GitHub Release
         env:
