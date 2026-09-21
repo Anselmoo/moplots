@@ -519,7 +519,7 @@ class GenerateMOPlotsCommand(Command):
                     subprocess.run(
                         f"{config.orca_plot_path} {self.args.infile[0].name }"
                         f" -i < {filename} > {filename}.log",
-                        shell=True,  # noqa: S602
+                        shell=True,
                         check=True,
                     )
                 if self.spin in ["beta", "both"]:
@@ -529,7 +529,7 @@ class GenerateMOPlotsCommand(Command):
                     subprocess.run(
                         f"{config.orca_plot_path} {self.args.infile[0].name }"
                         f" -i < {filename} > {filename}.log",
-                        shell=True,  # noqa: S602
+                        shell=True,
                         check=True,
                     )
 
